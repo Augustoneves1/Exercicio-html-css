@@ -1,0 +1,418 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+
+body{
+    max-width: 1440px;
+    margin: 0 auto;
+    font-family: 'Open Sans' , sans-serif;
+}
+
+.cabecalho{
+    background-color: hsl(219, 30%, 18%);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'raleway' , sans-serif;
+    height: 200px;
+}
+
+.cabecalho .logo{
+    padding: 30px 45px;
+}
+
+.cabecalho .menu{
+    display: flex;
+    padding: 30px 45px;
+}
+
+.cabecalho .menu li{
+    font-size: 18px;
+    margin: 0 30px;
+}
+
+.cabecalho .menu li a{
+    color: white;
+}
+
+ .cabecalho .menu li a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+} 
+
+main{
+    position: relative;
+}
+
+.primary{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    max-height: 1000px;
+    z-index: 1;
+}
+
+.primary img{
+    width: 60%;
+}
+
+.primary h1{
+    font-family: 'raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 40px;
+    text-align: center;
+    width: 60%;
+    margin: 40px;
+}
+
+.primary p{
+    font-size: 18px;
+    width: 38%;
+    text-align: center;
+    margin: 20px 0 25px 0;
+}
+
+.primary a{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    color: white;
+    background-color:  hsl(198, 60%, 50%);
+    margin: 40px 40px 50px 40px;
+    padding: 20px; 
+    width: 200px;
+    text-align: center;
+    border-radius: 30px;
+}
+
+.primary a:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+.primary::after{
+    content: "";
+    background-image: url(../images/bg-curvy-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.advantages{
+    background-color: hsl(218, 28%, 13%);
+    display: grid;
+    grid-template: repeat(2, 250px) / repeat(2, minmax(330px, 430px));
+    align-content: center;
+    grid-gap: 50px 100px;
+    min-height: 800px;
+}
+
+.advantages .advantage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    color: white;
+    font-size: 17px;
+    text-align: center;
+    max-width: 430px;
+    height: 250px;
+    padding: 10px;
+}
+
+.advantages .advantage h3{
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.productivity{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(218, 28%, 13%);
+    min-height: 550px;
+}
+
+.productivity img{
+    width: 40%;
+    margin: 25px;
+}
+
+.productivity .content{
+    width: 34%;
+    margin: 25px;
+    color: white;
+}
+
+.productivity .content h2{
+    font-family: 'Raleway' , sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 15px 0;
+}
+
+.productivity .content p{
+    font-size: 16px;
+    margin: 10px 0;
+}
+
+.productivity .content a{
+    color: hsl(176, 68%, 64%);
+    border-bottom: 2px solid;
+    padding-bottom: 2px;
+    position: relative;
+}
+
+.productivity .content a:hover{
+    color: white;
+}
+
+.productivity .content a::after{
+    content: "";
+    background: url(../images/icon-arrow.svg) center no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 100%;
+}
+
+.teams{
+    background-color: hsl(218, 28%, 13%);
+    display: flex;
+    justify-content: center;
+    min-height: 600px;
+    position: relative;
+    z-index: 1;
+}
+
+.teams .team{
+    background-color: hsl(219, 30%, 18%);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 343px;
+    height: 210px;
+    margin: 100px 17px 0 17px;
+    border-radius: 3px;
+    box-shadow: 6px 9px 15px rgba(255, 255, 255, 0.015);
+}
+
+.teams .team.quotes{
+    position: relative;
+}
+
+.teams .team.quotes::before{
+    content: url(../images/bg-quotes.png);
+    position: absolute;
+    top: -35px;
+    left: -12px;
+    z-index: -1;
+}
+
+.teams .team p{
+    padding: 20px 20px 0 20px;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+.teams .team .member{
+    display: flex;
+    align-items: center;
+    margin: 20px;
+}
+
+.team .member img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50px;
+}
+
+.team .member .info h4{
+    margin-left:10px;
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+}
+
+.team .member .info p{
+    padding: 0;
+    margin: 0 0 0 10px;
+    font-size: 10px;
+}
+
+.cadastre{
+    position: absolute;
+    left: 50%;
+    bottom: -125px;
+    transform: translatex(-50%);
+    background-color: hsl(217, 28%, 15%);
+    color: white;
+    width: 800px;
+    height: 190px;
+    padding: 40px;
+    border-radius: 4px;
+    box-shadow: 7px 10px 15px rgba(0, 0, 0, 0.158);
+    z-index: 1;
+}
+
+.cadastre .title{
+    font-family:'Raleway' , sans-serif;
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.cadastre .info{
+    font-size: 15px;
+    text-align: center;
+    margin: 0 auto 40px auto;
+}
+
+.cadastre .form{
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.cadastre .form input{
+    width: 60%;
+    margin-right: 35px;
+    border-radius: 30px;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.cadastre .form a{
+    font-family: 'Raleway' , sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: white;
+    background-color: hsl(198, 60%, 50%);
+    width: 23%;
+    padding: 15px;
+    border-radius: 30px;
+}
+
+.cadastre .form a:hover{
+    background-color: hsl(176, 68%, 64%);
+}
+
+.cadastre .form .alerta-invalido.campo-invalido{
+    display: block;
+}
+
+.cadastre .form .alerta-invalido{
+    display: none;
+    position: absolute;
+    color: hsl(0, 100%, 63%);
+    font-weight: 700;
+    bottom: -29px;
+    left: 10%;
+    font-size: 15px;
+}
+
+.rodape{
+    position: relative;
+    background-color: #0b1523;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 160px 115px 120px 115px;
+}
+
+.rodape .logo{
+    margin-bottom: 30px;
+}
+
+.rodape .information{
+    display: flex;
+    justify-content: space-between;
+}
+
+.rodape .information p::before{
+    content: "";
+    background: url(../images/icon-location.svg) center no-repeat;
+    position: absolute;
+    left: -10px;
+    width: 50px;
+    height: 50px;
+}
+
+.rodape .information p{
+    width: 322px;
+    padding-left: 40px;
+    position: relative;
+}
+
+.rodape .information .contact .telephone::before{
+    content: "";
+    background: url(../images/icon-phone.svg) center no-repeat;
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 22px;
+}
+
+.rodape .information .contact .email::before{
+    content: "";
+    background: url(../images/icon-email.svg) center no-repeat;
+    position: absolute;
+    left: -35px;
+    width: 30px;
+    height: 22px;
+}
+
+.rodape .information .contact span{
+    position: relative;
+    display: block;
+    margin-bottom: 12px;
+}
+
+.rodape .information .upon li,
+.rodape .information .terms li{
+    margin-bottom: 12px;
+}
+
+.rodape .information .upon li a,
+.rodape .information .terms li a{
+    color: white;
+}
+
+.rodape .information .upon li a:hover,
+.rodape .information .terms li a:hover{
+    text-decoration: underline;
+    font-weight: 700;
+}
+
+.rodape .information .social a{
+    color: white;
+    font-size: 25px;
+    margin-left:18px;
+}
+
+.rodape .information .social a:hover{
+    color: hsl(176, 68%, 64%);
+}
+
+.rodape .assignment{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.rodape .assignment span{
+    display: inline-block;
+    margin-right: 15px;
+}
+
+.rodape .assignment span a{
+    color: white;
+    text-decoration: underline;
+}

@@ -1,0 +1,416 @@
+@media(max-width:1150px){
+    .rodape{
+        padding: 160px 60px 120px 60px;
+    }
+}
+
+@media(max-width:1050px){
+    .primary h1{
+        font-size: 35px;
+    }
+
+    .primary img{
+        width: 70%;
+    }
+
+    .primary p{
+        font-size: 17px;
+    }
+
+    .primary a{
+        padding: 18px;
+    }
+
+    .advantages{
+        grid-template: repeat(4, 250px) / repeat(1, minmax(320px, 370px));
+        padding: 50px;
+    }
+
+    .productivity .content h2{
+        font-size: 35px;
+    }
+
+    .productivity .content p{
+        font-size: 15px;
+    }
+
+    .teams{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .teams .team{
+        margin: 30px 0;
+    }
+
+    .team:last-child{
+        margin: 30px 0 250px 0;
+    }
+
+    .cadastre{
+        max-width:680px;
+    }
+
+    .cadastre .title{
+        font-size: 30px;
+    }
+
+    .cadastre .form a{
+        width:27%;
+    }
+
+    .rodape{
+        padding: 160px 50px 120px 50px;
+        font-size: 14px;
+    }
+
+    .rodape .information p{
+        width: 225px;
+    }
+}
+
+@media(max-width:885px){
+    .primary h1{
+        font-size: 30px;
+        width: 80%;
+    }
+
+    .primary p{
+        width: 50%;
+        font-size: 16px;
+    }
+
+    .productivity{
+        flex-direction: column;
+        align-items: center;
+        padding-bottom: 70px;
+    }
+
+    .productivity img{
+        margin: 100px 25px 30px 25px;
+        width: 60%;
+    }
+
+    .productivity .content{
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .productivity .content h2{
+        font-size: 30px;
+    }
+
+    .productivity .content a{
+        margin-bottom: 100px;
+    }
+
+    .cadastre{
+        max-width: 550px;
+    }
+
+    .cadastre .form a{
+        width: 32px;
+    }
+
+    .teams .team{
+        margin: 25px 0;
+    }
+
+    .teams:last-child{
+        margin: 25px 0 250px 0;
+    }
+
+    .rodape{
+        font-size: 16px;
+        padding: 160px 40px 120px 40px;
+    }
+
+    .rodape .information{
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        height: 600px;
+    }
+
+    .rodape .information p{
+        width: 300px;
+        margin-bottom: 20px;
+    }
+
+    .rodape .information .contact{
+        padding-left: 40px;
+        margin-bottom: 60px;
+    }
+
+    .rodape .information .upon{
+        margin-bottom: 30px;
+    }
+
+    .rodape .information .terms{
+        margin-bottom: 60px;
+    }
+
+    .rodape .information .social a:first-child{
+        margin-left: 0;
+    }
+
+    .rodape .information .social{
+        align-self: center;
+    }
+
+    .rodape .assignment{
+        width: 100%;
+        text-align: center;
+        font-size: 15px;
+    }
+}
+
+@media(max-width:725px){
+    .cabecalho .logo{
+        padding: 20px;
+    }
+
+    .cabecalho .logo img{
+        width: 150px;
+    }
+
+    .cabecalho .menu{
+        padding: 20px;
+    }
+
+    .cabecalho .menu li{
+        font-size: 16px;
+    }
+
+    .primary h1{
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .teams:last-child{
+        margin: 25px 0 300px 0;
+    }
+
+    .cadastre{
+        max-width: 460px;
+        height: 255px;
+    }
+
+    .cadastre .form{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cadastre .form input{
+        width: 90%;
+        margin: 15px 0;
+        padding: 15px;
+    }
+
+    .cadastre .form a{
+        width: 90%;
+        padding: 15px;
+    }
+}
+
+@media(max-width:620px){
+    .cabecalho .logo img{
+        width: 130px;
+    }
+
+    .cabecalho .menu li{
+        margin: 0 15px;
+    }
+
+    .cadastre{
+        min-height: 300px;
+        max-width: 370px;
+    }
+
+    .productivity img{
+        width: 70%;
+    }
+
+    .productivity .content{
+        width: 80%;
+    }
+
+    .rodape .assignment{
+        font-size: 14px;
+    }
+}
+
+@media(max-width:490px){
+    .cabecalho .logo img{
+        width: 120px;
+    }
+
+    .cabecalho .menu li{
+        margin: 0 10px;
+    }
+
+    .primary a{
+        padding: 10px;
+        font-size: 16px;
+    }
+
+    .teams .team{
+        width: 300px;
+        margin: 20px 0;
+    }
+
+    .team:last-child{
+        margin: 20px 0 235px 0;
+    }
+
+    .teams .team p{
+        font-size: 15px;
+    }
+
+    .cadastre{
+        max-width: 320px;
+        border-radius: 8px;
+        bottom: -190px;
+    }
+
+    .cadastre .title{
+        font-size: 25px;
+    }
+
+    .cadastre .form input{
+        font-size: 15px;
+    }
+
+    .cadastre .form a{
+        font-size: 15px;
+    }
+
+    .rodape{
+        font-size: 15px;
+        padding: 240px 30px 120px 30px;
+    }
+
+    .rodape .logo img{
+        width: 130px;
+        margin-bottom: 40px;
+    }
+
+    .rodape .information{
+        height: 550px;
+    }
+
+    .rodape .assignment{
+        font-size: 13px;
+    }
+}
+
+@media(max-width:435px){
+    .cabecalho{
+        height: 100px;
+    }
+
+    .cabecalho .logo img{
+        width: 100px;
+    }
+
+    .cabecalho .menu li{
+        font-size: 14px;
+        margin: 0 8px;
+    }
+
+    .primary img{
+        margin-top: 15px;
+    }
+    .primary h1{
+        font-size: 24px;
+        margin-top: 40px;
+        width: 95%;
+    }
+    .primary p{
+        font-size: 14px;
+        width: 80%;
+    }
+    
+
+    .advantages .advantage{
+        justify-content: center;
+    }
+    .advantages .advantage img{
+        width: 70px;
+    }
+    .advantages .advantage h3{
+        font-size: 17px;
+        margin:17px 0;
+    }
+    .advantages .advantage p{
+        font-size: 14px;
+    }
+
+    .productivity img{
+        margin-top: 100px;
+    }
+    .productivity .content h2{
+        font-size: 23px;
+    }
+    .productivity .content p{
+        font-size: 15px;
+    }
+    .productivity .content a{
+        font-size: 15px;
+        margin: 20px 0 100px 0;  
+        min-width: 158px;
+    }
+
+    .teams .team{
+        width: 270px;
+        margin: 10px 0;
+    }
+    .teams .team p{
+        font-size:13px;
+    }
+    .team:last-child{
+        margin: 10px 0 235px 0; 
+    }
+
+    .cadastre{
+        width: 275px;
+        padding: 20px;
+    }
+    .cadastre .title{
+        font-size: 23px;
+    }
+    .cadastre .info {
+        font-size: 14px;
+        margin-bottom: 15px;
+    }
+    .cadastre .form input{
+        font-size: 13px;
+        width: 85%;
+    }
+    .cadastre .form a{
+        font-size: 14px;
+        padding: 14px;
+        width: 85%;
+    }
+
+    
+    .rodape .informacoes{
+        justify-content: center;
+    }
+    .rodape .informacoes p{
+        width: 290px;
+    }
+    .rodape .informacoes .contact{
+        margin: 20px 0 50px 0;
+    }
+    .rodape .informacoes .upon{
+        margin-bottom: 30px;
+    }
+    .rodape .informacoes .terms{
+        margin-bottom: 65px;
+    }
+    .rodape .assignment span{
+        margin-right: 8px;
+    }
+}
+
